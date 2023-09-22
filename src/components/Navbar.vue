@@ -73,9 +73,6 @@
 							>
 						</li>
 						<li>
-							<RouterLink to="#" :class="linkClass()">Features</RouterLink>
-						</li>
-						<li>
 							<RouterLink to="#" :class="linkClass()">About</RouterLink>
 						</li>
 						<li>
