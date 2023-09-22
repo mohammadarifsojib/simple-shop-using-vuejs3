@@ -11,12 +11,12 @@
 			<div
 				class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto"
 			>
-				<a href="#" class="flex items-center">
+				<RouterLink :to="{ name: 'home' }" class="flex items-center">
 					<span
 						class="self-center text-xl font-bold whitespace-nowrap hover:text-sky-500 hover:transition-all"
 						>MYSHOP</span
-					>
-				</a>
+					></RouterLink
+				>
 				<div class="flex items-center lg:order-2">
 					<button
 						data-collapse-toggle="mobile-menu-2"
